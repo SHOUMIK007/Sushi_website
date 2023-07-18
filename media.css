@@ -1,0 +1,788 @@
+/* Extra Small Screen */
+@media (max-width:575.98px){
+    #nav-main{
+        height:83px;
+    }
+    .logo{
+        margin-left:0px;
+    }
+    .first-nav-link{
+        padding-left:0px!important;
+    }
+    .second-nav-link{
+        padding-left:0px!important;
+    }
+    .third-nav-link{
+        padding-left:0px!important;
+    }
+    .fourth-nav-link{
+        padding-left:0px!important;
+    }
+    .fifth-nav-link{
+        padding-left:0px!important;
+    }
+    .search-icon{
+        margin-left:0px!important;
+        padding-top:10px;
+    }
+    #banner-img{
+        height: auto;
+    }
+    .banner-content{
+        padding: 168px 0px 0px 0px;
+        text-align: center;
+    }
+    .banner-title{
+        font-size:64.63px;
+    }
+    .banner-para{
+        font-size:19.72px;
+        width: 100%;
+    }
+    .banner-button{
+        width:222px;
+        font-size:18px;
+        height:45px;
+        margin-bottom:50px;
+    }
+    /* section2:popular menu */
+    #section-2-main{
+        height:auto;
+    }
+    .section-2-title{
+        font-size: 43.66px;
+        padding-top: 96px;
+    }
+    .section-2-para{
+        font-size: 20.23px;
+        padding-top: 38px;
+    }
+    #section-2-row{
+        margin-top: 72px;
+    }
+    .section-2-card-title{
+        font-size: 28.08px;
+        padding-top: 23px;
+    }
+    .section-2-card-para{
+        font-size:16.85px;
+        padding-top:13px;
+    }
+    /* section3:pre-stat */
+    #section-3{
+        height: auto;
+        text-align: center;
+    }
+    .pre-stat-image{
+        margin-left:0px;
+    }
+    .pre-statistics-title{
+        font-size:50px;
+        padding-top:100px;
+    }
+    .pre-statistics-para{
+        font-size: 20px;
+        width: fit-content;
+    }
+    .pre-stat-button{
+        margin-bottom: 50px;
+        width:200px;
+        font-size: 20px;
+    }
+    /* section4 */
+    #section-4{
+        background-image: url(section4-design.png);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        background-position: center center;
+        background-position-y:52px;
+    }
+    #section4-sub{
+        height:auto;
+        /* margin: 0px 80px 0px 80px; */
+        background-image: url();
+    }
+    .section-4-title{
+        font-size:42.26px;
+        padding-top:50px;
+    }
+    .section-4-para{
+        font-size:24.68px;
+        padding:30px 0px 0px 0px;
+    }
+    .section-4-card1{
+        margin: 0px 0px 0px 0px;
+    }
+    .section-4-card2{
+        margin: 30px 0px 0px 0px;
+    }
+    .section-4-card3{
+        margin: 30px 0px 30px 0px;
+    }
+    /* section5:post statistic section */
+#section-5{
+    height:auto;
+    text-align: center;
+}
+.section-5-title{
+    font-size: 55px;
+    padding-top: 200px;
+}
+.section-5-para{
+    width:100%;
+    font-size:20.72px;
+}
+.post-stat-button{
+    margin-top:24px;
+    margin-bottom: 24px;
+    font-size:20px;
+}
+#section-5-col-1{
+    padding-left:0px;
+}
+.section-5-image{
+    margin: 0px 0px 30px 0px;
+}
+/* section-6 */
+#section-6{
+    height:auto;
+    padding: 100px 0px 0px 0px;
+}
+.section-6-para{
+    font-size:25.67px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    padding:40px 0px 0px 0px;
+}
+.reviwer-name{
+    font-size: 34.9px;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+/* section7:post-portfolio section  */
+#section-7{
+    height:auto;
+    background-color:#ffd17e;
+    background-image: url(section7-design.png);
+    background-size: 100% 94%;
+    background-repeat: no-repeat;
+    background-position-x:60px;
+    background-position-y:20px;
+    text-align: center;
+}
+.section-7-title{
+    font-size:55px;
+    padding-top: 163px;
+}
+.section-7-para{
+    font-size:20.72px;
+    padding:30px 0px 0px 0px;
+}
+.section-7-button{
+    width:150px;
+    height: 60px;
+    border-radius: 30px;
+    border-style: none;
+    margin-top: 68px;
+    margin-left:30px;
+    margin-bottom: 50px;
+    color:black;
+}
+.section-7-button::placeholder{
+    color:#7f7f7f;
+    font-size:15px;
+    padding-left:0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+}
+.subscribe-button{
+    height: 60px;
+    font-size:12px;
+    border-style: none;
+    border-radius: 30px;
+    width:90px;
+    /* margin-left: 150px; */
+    /* margin-bottom: 50px;
+    margin-top: 20px; */
+    transform: translate(-50px,-5%);
+}
+/* footer section */
+#main-footer{
+    height:auto;
+    padding: 0px;
+    margin: 0px;
+}
+.extra-space{
+    padding: 0px;
+}
+#footer-row{
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+}
+/* Small Screen */
+@media (min-width:576px)and(max-width:767.98px){
+    #nav-main{
+        height:83px;
+    }
+    .logo{
+        margin-left:0px;
+    }
+    .first-nav-link{
+        padding-left:0px!important;
+    }
+    .second-nav-link{
+        padding-left:0px!important;
+    }
+    .third-nav-link{
+        padding-left:0px!important;
+    }
+    .fourth-nav-link{
+        padding-left:0px!important;
+    }
+    .fifth-nav-link{
+        padding-left:0px!important;
+    }
+    .search-icon{
+        margin-left:0px!important;
+        padding-top:10px;
+    }
+    #banner-img{
+        height: auto;
+    }
+    .banner-content{
+        padding: 168px 0px 0px 0px;
+        text-align: center;
+    }
+    .banner-title{
+        font-size:64.63px;
+    }
+    .banner-para{
+        font-size:19.72px;
+        width: 100%;
+    }
+    .banner-button{
+        width:222px;
+        font-size:18px;
+        height:45px;
+        margin-bottom:50px;
+    }
+    /* section2:popular menu */
+    #section-2-main{
+        height:auto;
+    }
+    .section-2-title{
+        font-size: 43.66px;
+        padding-top: 96px;
+    }
+    .section-2-para{
+        font-size: 20.23px;
+        padding-top: 38px;
+    }
+    #section-2-row{
+        margin-top: 72px;
+    }
+    .section-2-card-title{
+        font-size: 28.08px;
+        padding-top: 23px;
+    }
+    .section-2-card-para{
+        font-size:16.85px;
+        padding-top:13px;
+    }
+     /* section3:pre-stat */
+     #section-3{
+        height: auto;
+        text-align: center;
+    }
+    .pre-stat-image{
+        margin-left:0px;
+    }
+    .pre-statistics-title{
+        font-size:50px;
+        padding-top:100px;
+    }
+    .pre-statistics-para{
+        font-size: 20px;
+        width: fit-content;
+    }
+    .pre-stat-button{
+        margin-bottom: 50px;
+    }
+    /* section4 */
+    #section-4{
+        background-image: url(section4-design.png);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        background-position: center center;
+        background-position-y:52px;
+    }
+    #section4-sub{
+        height:auto;
+        /* margin: 0px 80px 0px 80px; */
+        background-image: url();
+    }
+    .section-4-title{
+        font-size:42.26px;
+        padding-top:50px;
+    }
+    .section-4-para{
+        font-size:24.68px;
+        padding:30px 0px 0px 0px;
+    }
+    .section-4-card1{
+        margin: 0px 0px 0px 0px;
+    }
+    .section-4-card2{
+        margin: 30px 0px 0px 0px;
+    }
+    .section-4-card3{
+        margin: 30px 0px 30px 0px;
+    }
+     /* section5:post statistic section */
+#section-5{
+    height:auto;
+    text-align: center;
+}
+.section-5-title{
+    font-size: 55px;
+    padding-top: 200px;
+}
+.section-5-para{
+    width:100%;
+    font-size:20.72px;
+}
+.post-stat-button{
+    margin-top:24px;
+    margin-bottom: 24px;
+    font-size:20px;
+}
+#section-5-col-1{
+    padding-left:0px;
+}
+.section-5-image{
+    margin: 0px 0px 30px 0px;
+}
+/* section-6 */
+#section-6{
+    height:auto;
+    padding: 100px 0px 0px 0px;
+}
+.section-6-para{
+    font-size:25.67px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    padding:40px 0px 0px 0px;
+}
+.reviwer-name{
+    font-size: 34.9px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    padding-bottom: 30px;
+}
+/* section7:post-portfolio section  */
+#section-7{
+    height:auto;
+    background-color:#ffd17e;
+    background-image: url(section7-design.png);
+    background-size: 100% 94%;
+    background-repeat: no-repeat;
+    background-position-x:60px;
+    background-position-y:20px;
+}
+.section-7-title{
+    font-size:55px;
+    padding-top: 163px;
+}
+.section-7-para{
+    font-size:20.72px;
+    padding:30px 0px 0px 0px;
+}
+.section-7-button{
+    width:150px;
+    height: 60px;
+    border-radius: 30px;
+    border-style: none;
+    margin-top: 68px;
+    margin-left:30px;
+    margin-bottom: 50px;
+    color:black;
+}
+.section-7-button::placeholder{
+    color:#7f7f7f;
+    font-size:15px;
+    padding-left:0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+}
+.subscribe-button{
+    height: 60px;
+    font-size:12px;
+    border-style: none;
+    border-radius: 30px;
+    width:90px;
+    /* margin-left: 150px; */
+    /* margin-bottom: 50px;
+    margin-top: 20px; */
+    transform: translate(-50px,-5%);
+}
+/* footer section */
+#main-footer{
+    height:auto;
+    padding: 0px;
+    margin: 0px;
+}
+.extra-space{
+    padding: 0px;
+}
+#footer-row{
+    width: 100%;
+}
+}
+/* Medium Screen */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #nav-main{
+        height:83px;
+    }
+    .logo{
+        margin-left:0px;
+    }
+    .first-nav-link{
+        padding-left:0px!important;
+    }
+    .second-nav-link{
+        padding-left:0px!important;
+    }
+    .third-nav-link{
+        padding-left:0px!important;
+    }
+    .fourth-nav-link{
+        padding-left:0px!important;
+    }
+    .fifth-nav-link{
+        padding-left:0px!important;
+    }
+    .search-icon{
+        margin-left:0px!important;
+        padding-top:10px;
+    }
+    #banner-img{
+        height: auto;
+    }
+    .banner-content{
+        padding: 168px 0px 0px 0px;
+        text-align: center;
+    }
+    .banner-title{
+        font-size:64.63px;
+    }
+    .banner-para{
+        font-size:19.72px;
+        width: 100%;
+    }
+    .banner-button{
+        width:222px;
+        font-size:18px;
+        height:45px;
+        margin-bottom:50px;
+    }
+    /* section2:popular menu */
+    #section-2-main{
+        height:auto;
+    }
+    .section-2-title{
+        font-size: 43.66px;
+        padding-top: 96px;
+    }
+    .section-2-para{
+        font-size: 20.23px;
+        padding-top: 38px;
+    }
+    #section-2-row{
+        margin-top: 72px;
+    }
+    .section-2-card-title{
+        font-size: 28.08px;
+        padding-top: 23px;
+    }
+    .section-2-card-para{
+        font-size:16.85px;
+        padding-top:13px;
+    }
+     /* section3:pre-stat */
+     #section-3{
+        height: auto;
+        text-align: center;
+    }
+    .pre-stat-image{
+        margin-left:0px;
+    }
+    .pre-statistics-title{
+        font-size:50px;
+        padding-top: 244px;
+    }
+    .pre-statistics-para{
+        font-size: 20px;
+        width: fit-content;
+    }
+    .pre-stat-button{
+        margin-bottom: 50px;
+    }
+    /* section4 */
+    #section-4{
+        background-image: url(section4-design.png);
+        background-repeat: no-repeat;
+        background-size:100% 100%;
+        background-position: center center;
+        background-position-y:52px;
+    }
+    #section4-sub{
+        height:auto;
+        /* margin: 0px 80px 0px 80px; */
+        background-image: url();
+    }
+    .section-4-title{
+        font-size:42.26px;
+        padding-top:50px;
+    }
+    .section-4-para{
+        font-size:24.68px;
+        padding:0px 0px 0px 0px;
+    }
+    .section-4-card1{
+        margin: 0px 30px 0px 0px;
+    }
+    .section-4-card2{
+        margin: 0px 0px 0px 0px;
+    }
+    .section-4-card3{
+        margin: 0px 0px 0px 30px;
+    }
+    #section-4-card-row{
+        padding-bottom: 50px;
+    }
+     /* section5:post statistic section */
+#section-5{
+    height:auto;
+    text-align: center;
+}
+.section-5-title{
+    font-size: 55px;
+    padding-top: 200px;
+}
+.section-5-para{
+    width:100%;
+    font-size:20.72px;
+}
+.post-stat-button{
+    margin-top:24px;
+    margin-bottom: 24px;
+    font-size:20px;
+}
+#section-5-col-1{
+    padding-left:0px;
+}
+.section-5-image{
+    margin: 193px 0px 30px 0px;
+}
+/* section-6 */
+#section-6{
+    height:auto;
+    padding: 100px 0px 0px 0px;
+}
+.section-6-para{
+    font-size:25.67px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    padding:40px 0px 0px 0px;
+}
+.reviwer-name{
+    font-size: 34.9px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    padding-bottom: 30px;
+    margin: 0px;
+}
+/* section7:post-portfolio section  */
+#section-7{
+    height:auto;
+    background-color:#ffd17e;
+    background-image: url(section7-design.png);
+    background-size: 100% 94%;
+    background-repeat: no-repeat;
+    background-position-x:60px;
+    background-position-y:20px;
+}
+.section-7-title{
+    font-size:55px;
+    padding-top: 163px;
+}
+.section-7-para{
+    font-size:20.72px;
+    padding:30px 0px 0px 0px;
+}
+.section-7-button{
+    width:400px;
+    height: 60px;
+    border-radius: 30px;
+    border-style: none;
+    margin-top: 68px;
+    margin-left:150px;
+    margin-bottom: 50px;
+    color:black;
+}
+.section-7-button::placeholder{
+    color:#7f7f7f;
+    font-size:15px;
+    padding-left:0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+}
+.subscribe-button{
+    height: 60px;
+    font-size:15px;
+    border-style: none;
+    border-radius: 30px;
+    width:120px;
+    transform: translate(-100px,-5%);
+}
+/* footer section */
+#main-footer{
+    height:auto;
+    padding: 0px;
+    margin: 0px;
+}
+.extra-space{
+    padding: 0px;
+}
+#footer-row{
+    width: 100%;
+}
+}
+/* large screen */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .logo{
+        margin-left:35px;
+        height:50px;
+    }
+    .nav-link{
+        color: white!important;
+        font-size:22px;
+    }
+    .first-nav-link{
+        padding-left:58px!important;
+    }
+    .second-nav-link{
+        padding-left:38px!important;
+    }
+    .third-nav-link{
+        padding-left:25px!important;
+    }
+    .fourth-nav-link{
+        padding-left:28px!important;
+    }
+    .fifth-nav-link{
+        padding-left:37px!important;
+    }
+    .search-icon{
+        margin-left:63px!important;
+        padding-top:0px;
+    }
+    #section4-sub{
+        height:auto;
+    }
+    .section-4-card1{
+        margin: 0px 30px 0px 0px;
+    }
+    .section-4-card2{
+        margin: 0px 0px 0px 0px;
+    }
+    .section-4-card3{
+        margin: 0px 0px 0px 30px;
+    }
+    .section-5-image{
+        margin: 193px 0px 0px 0px;
+    }
+    #section-6{
+        height:auto;
+        padding: 100px 0px 0px 0px;
+    }
+    .reviwer-name{
+        margin: 0px;
+    }
+    .section-7-button{
+        width:400px;
+        height: 60px;
+        border-radius: 30px;
+        border-style: none;
+        margin-top: 68px;
+        margin-left:150px;
+        color:black;
+    }
+    .section-7-button::placeholder{
+        color:#7f7f7f;
+        font-size:15px;
+        padding-left:0px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight:400;
+    }
+    .subscribe-button{
+        height: 60px;
+        font-size:15px;
+        border-style: none;
+        border-radius: 30px;
+        width:120px;
+        transform: translate(-100px,-5%);
+    }
+    #main-footer{
+        height:auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    .extra-space{
+        padding: 0px;
+    }
+    #footer-row{
+        width: 100%;
+    }
+}
+/* extra large */
+@media (min-width:1200px) and (max-width:1450px) {
+    .nav-link{
+        color: white!important;
+        font-size: 25px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+    .logo{
+        margin-left: 45px;
+    }
+    .first-nav-link{
+        padding-left:98px!important;
+    }
+    .second-nav-link{
+        padding-left: 58px!important;
+    }
+    .third-nav-link{
+        padding-left: 35px!important;
+    }
+    .fourth-nav-link{
+        padding-left: 48px!important;
+    }
+    .fifth-nav-link{
+        padding-left:57px!important;
+    }
+    .search-icon{
+        margin-left:100px!important;
+        padding-top:10px;
+    }
+    .section-5-image{
+        margin: 193px 0px 0px 0px;
+    }
+}
